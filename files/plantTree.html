@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/plant-a-tree.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico" />
+
+
+    <title>Plant a tree</title>
+
+</head>
+
+<body>
+
+    <!--    start of HEADER    -->
+    <header>
+        <a href="../index.html">
+            <img class="logo-header" src="../images/logo_borngreen.svg" alt="Born Green">
+        </a>
+        <a href="../index.html" class="close-btn">
+            <div class="close-btn-line1"></div>
+            <div class="close-btn-line2"></div>
+        </a>
+
+    </header>
+    <!-- Start of progress bar -->
+    <section class="progress">
+        <progress class="progress-line" data-final-value="20" id="progressbar" value="0" max="100"></progress>
+        <div class="progress-circles">
+            <div class="progress-circle" title="Choose your tree"></div>
+            <div class="progress-circle" title="Location and time"></div>
+            <div class="progress-circle" title="personal information"></div>
+            <div class="progress-circle" title="Summary"></div>
+        </div>
+    </section>
+    <!-- End of progress bar -->
+    <!--    end of HEADING     -->
+
+    <h1>Choose your tree</h1>
+    <form id="chooseYourTree">
+
+        <section class="trees">
+            <section class="tree">
+                <img class="tree-svg" src="../images/platform/beech.svg" alt="">
+                <div class="name-price">
+                    <h2>Beech</h2>
+                    <p>
+                        950 DKK
+                    </p>
+                </div>
+                <p>
+                    Height is up to 30- 40 m.
+                </p>
+                <p>
+                    The lifespan of 150–200 years, though sometimes up to 300 years.
+                </p>
+            </section>
+
+            <section class="tree">
+                <img class="tree-svg" src="../images/platform/oak.svg" alt="">
+                <div class="name-price">
+                    <h2>Oak</h2>
+                    <p>
+                        950 DKK
+                    </p>
+                </div>
+                <p>
+                    Height up to 24-35 m.
+                </p>
+                <p>
+                    The lifespan of more than 1000 years.
+                </p>
+
+            </section>
+
+            <section class="tree">
+                <img class="tree-svg" src="../images/platform/alder.svg" alt="">
+                <div class="name-price">
+                    <h2>Alder</h2>
+                    <p>
+                        950 DKK
+                    </p>
+                </div>
+                <p>
+                    Height up to 20- 25 m.
+                </p>
+                <p>
+                    The lifespan of around 60 years.
+                </p>
+
+            </section>
+
+        </section>
+        <div class="back-next-button">
+            <a class="next button-hover" href="locationAndTime.html">NEXT</a>
+        </div>
+
+
+
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="../js/javascript.js"></script>
+
+</body>
+
+</html>
